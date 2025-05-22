@@ -2,104 +2,427 @@
   "holdings": [
     {
       "id": 1,
-      "coin": "BTC",
-      "coinName": "Bitcoin",
-      "logo": "/mock/images/bitcoin.svg",
-      "totalHolding": 0.63776,
-      "averageBuyPrice": 55320.15,
-      "currentPrice": 55320.15,
+      "coin": "USDC",
+      "coinName": "USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
+      "totalHolding": 0.0015339999999994802,
+      "averageBuyPrice": 1.5863185433764244,
+      "currentPrice": 85.41,
       "stcg": {
-        "amount": -1200,
-        "coins": 0.338
+        "amount": 0.12858552735441697,
+        "coins": 0.0015339999999994802
       },
       "ltcg": {
-        "amount": 2400,
-        "coins": 0.300
+        "amount": 0,
+        "coins": 0
       }
     },
     {
       "id": 2,
-      "coin": "ETH",
-      "coinName": "Ethereum",
-      "logo": "/mock/images/ethereum.svg",
-      "totalHolding": 5.6736,
-      "averageBuyPrice": 1620.15,
-      "currentPrice": 1643.21,
+      "coin": "WETH",
+      "coinName": "Polygon PoS Bridged WETH (Polygon POS)",
+      "logo": "https://coin-images.coingecko.com/coins/images/2518/large/weth.png?1696503332",
+      "totalHolding": 0.00023999998390319965,
+      "averageBuyPrice": 3599.856066001555,
+      "currentPrice": 211756,
       "stcg": {
-        "amount": 55320.15,
-        "coins": 2.332
+        "amount": 49.957471193511736,
+        "coins": 0.00023999998390319965
       },
       "ltcg": {
-        "amount": 8239.29,
-        "coins": 3.245
+        "amount": 0,
+        "coins": 0
       }
     },
     {
       "id": 3,
-      "coin": "USDT",
-      "coinName": "Tether",
-      "logo": "/mock/images/tether.svg",
-      "totalHolding": 3096.54,
-      "averageBuyPrice": 1.15,
-      "currentPrice": 1.01,
+      "coin": "SOL",
+      "coinName": "SOL (Wormhole)",
+      "logo": "https://coin-images.coingecko.com/coins/images/22876/large/SOL_wh_small.png?1696522175",
+      "totalHolding": 3.469446951953614e-17,
+      "averageBuyPrice": 221.42847548590152,
+      "currentPrice": 14758.01,
       "stcg": {
-        "amount": -1200,
-        "coins": 2011.23
+        "amount": 5.043389846205066e-13,
+        "coins": 3.469446951953614e-17
       },
       "ltcg": {
-        "amount": 2400,
-        "coins": 802.47
+        "amount": 0,
+        "coins": 0
       }
     },
     {
       "id": 4,
-      "coin": "MATIC",
-      "coinName": "Polygon",
-      "logo": "/mock/images/polygon.svg",
-      "totalHolding": 2210,
-      "averageBuyPrice": 2.31,
-      "currentPrice": 2.11,
+      "coin": "WPOL",
+      "coinName": "Wrapped POL",
+      "logo": "https://koinx-statics.s3.ap-south-1.amazonaws.com/currencies/DefaultCoin.svg",
+      "totalHolding": 2.3172764293128694,
+      "averageBuyPrice": 0.5227311370876341,
+      "currentPrice": 22.08,
       "stcg": {
-        "amount": -1200,
-        "coins": 802
+        "amount": 49.954151016387065,
+        "coins": 1.3172764293128694
       },
       "ltcg": {
-        "amount": 2400,
-        "coins": 1402
+        "amount": 20,
+        "coins": 1
       }
     },
     {
       "id": 5,
-      "coin": "ETH",
-      "coinName": "Ethereum",
-      "logo": "/mock/images/ethereum.svg",
-      "totalHolding": 5.6736,
-      "averageBuyPrice": 1620.15,
-      "currentPrice": 1643.21,
+      "coin": "MATIC",
+      "coinName": "Polygon",
+      "logo": "https://coin-images.coingecko.com/coins/images/4713/large/polygon.png?1698233745",
+      "totalHolding": 2.75145540184285,
+      "averageBuyPrice": 0.6880274617804887,
+      "currentPrice": 22.22,
       "stcg": {
-        "amount": 55320.15,
-        "coins": 2.332
+        "amount": 59.244262152615974,
+        "coins": 2.75145540184285
       },
       "ltcg": {
-        "amount": 8239.29,
-        "coins": 3.245
+        "amount": 0,
+        "coins": 0
       }
     },
     {
       "id": 6,
-      "coin": "USDT",
-      "coinName": "Tether",
-      "logo": "/mock/images/tether.svg",
-      "totalHolding": 3096.54,
-      "averageBuyPrice": 1.15,
-      "currentPrice": 1.01,
+      "coin": "GONE",
+      "coinName": "Gone",
+      "logo": "https://koinx-statics.s3.ap-south-1.amazonaws.com/currencies/DefaultCoin.svg",
+      "totalHolding": 696324.3075326696,
+      "averageBuyPrice": 0.00001637624055112482,
+      "currentPrice": 0.0001462,
       "stcg": {
-        "amount": -1200,
-        "coins": 2011.23
+        "amount": 90.39943939952589,
+        "coins": 696324.3075326696
       },
       "ltcg": {
-        "amount": 2400,
-        "coins": 802.47
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 7,
+      "coin": "USDT",
+      "coinName": "Arbitrum Bridged USDT (Arbitrum)",
+      "logo": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
+      "totalHolding": 0.0001580000000558357,
+      "averageBuyPrice": 1.4988059369185402,
+      "currentPrice": 85.42,
+      "stcg": {
+        "amount": 0.01325954866665267,
+        "coins": 0.0001580000000558357
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 8,
+      "coin": "USDC",
+      "coinName": "Bridged USDC (Polygon PoS Bridge)",
+      "logo": "https://coin-images.coingecko.com/coins/images/33000/large/usdc.png?1700119918",
+      "totalHolding": 0.005806999999992795,
+      "averageBuyPrice": 1.5405071277176852,
+      "currentPrice": 85.41,
+      "stcg": {
+        "amount": 0.48703014510873915,
+        "coins": 0.005806999999992795
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 9,
+      "coin": "SLN",
+      "coinName": "Smart Layer Network",
+      "logo": "https://koinx-statics.s3.ap-south-1.amazonaws.com/currencies/DefaultCoin.svg",
+      "totalHolding": 0.01,
+      "averageBuyPrice": 4.999247835735738,
+      "currentPrice": 6.66,
+      "stcg": {
+        "amount": 0.016607521642642627,
+        "coins": 0.01
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 10,
+      "coin": "OX",
+      "coinName": "OX Coin",
+      "logo": "https://coin-images.coingecko.com/coins/images/35365/large/logo.png?1708395976",
+      "totalHolding": 5,
+      "averageBuyPrice": 0.018408606024462898,
+      "currentPrice": 0.13319,
+      "stcg": {
+        "amount": 0.5739069698776855,
+        "coins": 5
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 11,
+      "coin": "FLAME",
+      "coinName": "FireStarter",
+      "logo": "https://coin-images.coingecko.com/coins/images/17359/large/WhiteOnBlack_Primary_Logo.png?1696516910",
+      "totalHolding": 1.4210854715202004e-14,
+      "averageBuyPrice": 0.07889041030290807,
+      "currentPrice": 0.355985,
+      "stcg": {
+        "amount": 3.9377509565538836e-15,
+        "coins": 1.4210854715202004e-14
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 12,
+      "coin": "PIG",
+      "coinName": "Pigcoin",
+      "logo": "https://coin-images.coingecko.com/coins/images/35425/large/pigcoin_200.png?1708544734",
+      "totalHolding": 1.79,
+      "averageBuyPrice": 0,
+      "currentPrice": 0.00008706,
+      "stcg": {
+        "amount": 0.0001558374,
+        "coins": 1.79
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 13,
+      "coin": "$CULO",
+      "coinName": "CULO",
+      "logo": "https://coin-images.coingecko.com/coins/images/34662/large/CULO-logo-inverted_200.png?1705641744",
+      "totalHolding": 150000,
+      "averageBuyPrice": 0,
+      "currentPrice": 0.00001623,
+      "stcg": {
+        "amount": 2.4345,
+        "coins": 150000
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 14,
+      "coin": "ETH",
+      "coinName": "Ethereum",
+      "logo": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "totalHolding": 0.0004211938732637162,
+      "averageBuyPrice": 3909.792264648455,
+      "currentPrice": 216182,
+      "stcg": {
+        "amount": 89.40775336229291,
+        "coins": 0.0004211938732637162
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 15,
+      "coin": "QUICK",
+      "coinName": "Quickswap [OLD]",
+      "logo": "https://coin-images.coingecko.com/coins/images/13970/large/quick.png?1696513704",
+      "totalHolding": 5.961538207532868e-11,
+      "averageBuyPrice": 65.86759737193783,
+      "currentPrice": 2319.83,
+      "stcg": {
+        "amount": 1.3437082981609774e-7,
+        "coins": 5.961538207532868e-11
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 16,
+      "coin": "DFYN",
+      "coinName": "Dfyn Network",
+      "logo": "https://coin-images.coingecko.com/coins/images/15368/large/SgqhfWz4_400x400_%281%29.jpg?1696515016",
+      "totalHolding": 3.1178615245153196e-11,
+      "averageBuyPrice": 0.03486178524947315,
+      "currentPrice": 0.300613,
+      "stcg": {
+        "amount": 8.285754875638759e-12,
+        "coins": 3.1178615245153196e-11
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 17,
+      "coin": "LINK",
+      "coinName": "Chainlink",
+      "logo": "https://coin-images.coingecko.com/coins/images/877/large/chainlink-new-logo.png?1696502009",
+      "totalHolding": 0.000047233224826389,
+      "averageBuyPrice": 9.172984515948809,
+      "currentPrice": 1450.14,
+      "stcg": {
+        "amount": 0.06806151900976895,
+        "coins": 0.000047233224826389
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 18,
+      "coin": "BLOK",
+      "coinName": "Bloktopia",
+      "logo": "https://coin-images.coingecko.com/coins/images/18819/large/logo-bholdus-6.png?1696518281",
+      "totalHolding": 9.822542779147625e-11,
+      "averageBuyPrice": 0.005182145656093,
+      "currentPrice": 0.02974533,
+      "stcg": {
+        "amount": 2.412729290101157e-12,
+        "coins": 9.822542779147625e-11
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 19,
+      "coin": "SPHERE",
+      "coinName": "Sphere Finance",
+      "logo": "https://coin-images.coingecko.com/coins/images/24424/large/2iR2JsL.png?1696523606",
+      "totalHolding": 2.2737367544323206e-13,
+      "averageBuyPrice": 0.011065778585432803,
+      "currentPrice": 0.00729945,
+      "stcg": {
+        "amount": -8.563639733967655e-16,
+        "coins": 2.2737367544323206e-13
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 20,
+      "coin": "TRADE",
+      "coinName": "Polytrade",
+      "logo": "https://coin-images.coingecko.com/coins/images/16416/large/Logo_colored_200.png?1696516012",
+      "totalHolding": 3.325212327709437e-11,
+      "averageBuyPrice": 0.25960465528043797,
+      "currentPrice": 17.51,
+      "stcg": {
+        "amount": 5.736122725812298e-10,
+        "coins": 3.325212327709437e-11
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 21,
+      "coin": "WELT",
+      "coinName": "Fabwelt",
+      "logo": "https://coin-images.coingecko.com/coins/images/20505/large/welt.PNG?1696519911",
+      "totalHolding": 1.063542780948968,
+      "averageBuyPrice": 0.01520546569793174,
+      "currentPrice": 0.060863,
+      "stcg": {
+        "amount": 0.048558741002894576,
+        "coins": 1.063542780948968
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 22,
+      "coin": "FTM",
+      "coinName": "Fantom",
+      "logo": "https://koinx-statics.s3.ap-south-1.amazonaws.com/currencies/DefaultCoin.svg",
+      "totalHolding": 0.04265758808550148,
+      "averageBuyPrice": 1.7040326829291739,
+      "currentPrice": 52.99,
+      "stcg": {
+        "amount": 2.1877356683780986,
+        "coins": 0.04265758808550148
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 23,
+      "coin": "EZ",
+      "coinName": "EasyFi V2",
+      "logo": "https://koinx-statics.s3.ap-south-1.amazonaws.com/currencies/DefaultCoin.svg",
+      "totalHolding": 0.0005424384664524931,
+      "averageBuyPrice": 6.539367177529248,
+      "currentPrice": 0.885074,
+      "stcg": {
+        "amount": -0.0030671061200917595,
+        "coins": 0.0005424384664524931
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 24,
+      "coin": "FRM",
+      "coinName": "Ferrum Network",
+      "logo": "https://coin-images.coingecko.com/coins/images/8251/large/FRM.png?1696508455",
+      "totalHolding": 6.442993445432421e-7,
+      "averageBuyPrice": 0.453964789704584,
+      "currentPrice": 0.093794,
+      "stcg": {
+        "amount": -2.3205780373028534e-7,
+        "coins": 6.442993445432421e-7
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
+      }
+    },
+    {
+      "id": 25,
+      "coin": "TITAN",
+      "coinName": "IRON Titanium",
+      "logo": "https://koinx-statics.s3.ap-south-1.amazonaws.com/currencies/DefaultCoin.svg",
+      "totalHolding": 8.861,
+      "averageBuyPrice": 8.531798889329416e-7,
+      "currentPrice": 8.65643e-7,
+      "stcg": {
+        "amount": 1.1043562716520403e-7,
+        "coins": 8.861
+      },
+      "ltcg": {
+        "amount": 0,
+        "coins": 0
       }
     }
   ]
