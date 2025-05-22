@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const HoldingsTable = ({ holdings = [], selectedIds = [], toggleSelection }) => {
   const [sortField, setSortField] = useState(null);
   const [sortDirection, setSortDirection] = useState('asc');
+  const [showAll, setShowAll] = useState(false);
 
   // Helper function to safely format numbers
   const formatNumber = (num) => {
@@ -58,6 +59,9 @@ const HoldingsTable = ({ holdings = [], selectedIds = [], toggleSelection }) => 
     );
   };
 
+  // Limit the number of visible holdings unless showAll is true
+  const visibleHoldings = showAll ? sortedHoldings : sortedHoldings.slice(0, 4);
+
   return (
     <div className="holdings-section">
       <h2 className="section-title">Holdings</h2>
@@ -96,8 +100,8 @@ const HoldingsTable = ({ holdings = [], selectedIds = [], toggleSelection }) => 
           <div className="amount-cell">Amount to Sell</div>
         </div>
 
-        {sortedHoldings.length > 0 ? (
-          sortedHoldings.map((holding) => {
+        {visibleHoldings.length > 0 ? (
+          visibleHoldings.map((holding) => {
             const isSelected = selectedIds.includes(holding.id);
             const coinLogo = holding.logo || `/mock/images/${holding.coin.toLowerCase()}.svg`;
 
@@ -172,9 +176,16 @@ const HoldingsTable = ({ holdings = [], selectedIds = [], toggleSelection }) => 
       </div>
       </div>
 
-      <div className="view-all">
-        <button className="view-all-button">View all</button>
-      </div>
+      {holdings.length > 4 && (
+        <div className="view-all">
+          <button
+            className="view-all-button"
+            onClick={() => setShowAll(!showAll)}
+          >
+            {showAll ? 'Show less' : 'View all'}
+          </button>
+        </div>
+      )}
     </div>
   );
 };

@@ -34,15 +34,21 @@ function App() {
     const loadHoldings = async () => {
       const data = await fetchHoldings();
       setHoldings(data);
-      // Initially select all holdings
-      setSelectedIds(data.map(h => h.id));
 
-      // Calculate initial gains
+      // Initially don't select any holdings
+      setSelectedIds([]);
+
+      // Calculate initial gains for all holdings (before harvesting)
       const before = calculateBeforeHarvesting(data);
       setBeforeGains(before);
 
-      // Initially after = before since all are selected
-      setAfterGains(before);
+      // Initially after = empty selection
+      const after = calculateAfterHarvesting(data, []);
+      setAfterGains(after);
+
+      // Calculate tax savings
+      const savings = calculateTaxSavings(before, after);
+      setTaxSavings(savings);
     };
 
     loadHoldings();
