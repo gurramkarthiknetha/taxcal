@@ -6,7 +6,7 @@ A responsive web application that helps cryptocurrency investors optimize their 
 
 ## About This Project
 
-The KoinX Tax Loss Harvesting Tool was developed to address the complex challenge of tax optimization for cryptocurrency investors. In the volatile world of crypto assets, investors often face significant tax implications from their trading activities. This tool simplifies the process of implementing tax loss harvesting strategies, which can substantially reduce an investor's tax burden.
+
 
 ### What is Tax Loss Harvesting?
 
